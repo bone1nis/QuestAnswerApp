@@ -1,0 +1,15 @@
+.header {
+    background-color: #4468e0;
+    height: 15vh;
+}
+.header__wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__title {
+    font-size: 32px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: $g-0;
+}

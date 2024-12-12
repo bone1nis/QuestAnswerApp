@@ -1,0 +1,29 @@
+@import "utils/reset.scss";
+@import "utils/vars.scss";
+
+html {
+    font-family: $mainFont;
+    line-height: $mainLineHeight;
+    font-size: $mainFontSize;
+    color: $mainFontColor;
+    height: 100%;
+    @media screen and (max-width: $desktopWidth) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: $tableWidth) {
+      font-size: 15px;
+    }
+    @media screen and (max-width: $phoneWidth) {
+      font-size: 14px;
+    }
+}
+h1, h2, h3, h4, h5, h6, button {
+    font-family: $mainFont;
+}
+
+
+@import 'common/_common.scss';
+
+@import 'helpers/_helpers';
+@import 'pages/_pages';
+@import 'components/components';

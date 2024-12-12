@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 400px;
+    background-color: $light-color;
+    border-radius: 10px;
+}
+.card__footer {
+    display: flex;
+}
+.card__form {
+    display: flex;
+    flex-direction: column;
+}
+.card__input:checked {
+    accent-color: $default-color-two;
+}
+.card__textarea {
+    margin: 10px 0;
+    border-radius: 5px;
+}

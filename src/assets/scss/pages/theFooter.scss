@@ -1,0 +1,21 @@
+.footer {
+    background-color: #4468e0;
+    height: 15vh;
+}
+.footer__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: $g-0;
+}
+.footer__subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: $g-0;
+}
